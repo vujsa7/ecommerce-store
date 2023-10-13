@@ -1,5 +1,3 @@
-import React from "react";
-
 export interface TextInputProperties
   extends React.InputHTMLAttributes<HTMLInputElement> {
   label: string;

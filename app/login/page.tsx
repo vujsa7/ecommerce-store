@@ -1,13 +1,7 @@
-import Button from "@/components/Button";
-import StoreLogo from "@/components/StoreLogo";
-import TextInput from "@/components/TextInput";
+import StoreLogo from "@/app/components/StoreLogo";
 import LoginForm from "./LoginForm";
 
 const page = () => {
-  // const onLogin = (): void => {
-  //   console.log("clicked");
-  // };
-
   return (
     <div className="flex w-full">
       <div className="w-1/4 h-screen bg-fw-blue"></div>
