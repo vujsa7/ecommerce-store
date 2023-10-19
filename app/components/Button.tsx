@@ -1,8 +1,9 @@
-export type ButtonProperties = {
+export interface ButtonProperties
+  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: string;
-  onClick: () => void;
+  onClick?: () => void;
   className?: string;
-};
+}
 
 const Button = ({ children, onClick, className }: ButtonProperties) => {
   return (
