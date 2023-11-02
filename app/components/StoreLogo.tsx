@@ -1,10 +1,10 @@
 import Logo from "@/public/Logo";
 
-const StoreLogo = ({ className }: { className: string }) => {
+const StoreLogo = ({ className }: { className?: string }) => {
   return (
-    <div className={`flex gap-1 ${className}`}>
+    <div className={`flex items-center gap-1 ${className}`}>
       <Logo />
-      <span>
+      <span className="text-white text-lg">
         <strong>FullstackWiz</strong> Store
       </span>
     </div>
